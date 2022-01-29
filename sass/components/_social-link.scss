@@ -8,7 +8,7 @@
   width: 44px;
   height: 44px;
   padding: 12px;
-  color: var(--icon-color);
+  color: $icon-color;
 }
 
 .social {
@@ -27,6 +27,6 @@
 }
 .social-link .link:hover,
 .social-link .link:focus {
-  background-color: var(--accent-color);
-  color: var(--second-accent-color);
+  background-color: $accent-color;
+  color: $second-accent-color;
 }

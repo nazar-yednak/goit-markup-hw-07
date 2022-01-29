@@ -22,24 +22,28 @@
     <header class="page-header">
       <div class="container main-nav">
         <a class="logo" href="" lang="en"><span class="logo-s">Web</span>Studio</a>
-        <nav class="site-nav">
-          <ul class="site-nav list">
-            <li class="item"><a class="current link" href="">Студия</a></li>
-            <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
-            <li class="item"><a class="link" href="">Контакты</a></li>
+        <nav class="main-nav">
+          <ul class="main-nav__list list">
+            <li class="main-nav__item">
+              <a class="main-nav__link main-nav__current link" href="">Студия</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="main-nav__item"><a class="main-nav__link link" href="">Контакты</a></li>
           </ul>
         </nav>
         <ul class="auth-nav list">
-          <li class="item">
-            <a class="link" href="mailto:info@devstudio.com">
+          <li class="auth-nav__item">
+            <a class="auth-nav__link link" href="mailto:info@devstudio.com">
               <svg class="icon-envelope">
                 <use href="./images/symbol-defs.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a class="link" href="tel:+380961111111">
+          <li class="auth-nav__item">
+            <a class="auth-nav__link link" href="tel:+380961111111">
               <svg class="icon-smartphone">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
@@ -51,9 +55,9 @@
     </header>
     <main>
       <!--hero-->
-      <section class="section-hero section bg-hero">
+      <section class="section-hero section">
         <div class="container hero">
-          <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button class="btn btn-hero" type="button" data-modal-open>Заказать услугу</button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">

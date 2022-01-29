@@ -1,7 +1,11 @@
 .address {
   display: block;
+  width: 231px;
   font-family: Roboto;
   font-style: normal;
+  font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
   color: #ffffff;
 }
 .address-link .item:not(:last-child) {
@@ -19,10 +23,9 @@
 }
 .address .link:hover,
 .address .link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
-.address-link {
-}
+
 .address-link .item:not(:last-child) {
   margin-bottom: 9px;
 }

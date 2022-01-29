@@ -6,7 +6,7 @@
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--prymary-text-color);
+  color: $prymary-text-color;
 }
 .work-list {
   display: flex;
@@ -14,8 +14,8 @@
 }
 .work-list .item {
   position: relative;
-  flex-basis: calc(100% / 3 - var(--list-work-item));
-  margin-left: var(--list-work-item);
+  flex-basis: calc(100% / 3 - $list-work-item);
+  margin-left: $list-work-item;
 }
 
 .work-list .text {
@@ -32,7 +32,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--second-accent-color);
+  color: $second-accent-color;
 }
 .work-list .item:first-of-type {
   margin-left: 0;
