@@ -1,0 +1,28 @@
+.address {
+  display: block;
+  font-family: Roboto;
+  font-style: normal;
+  color: #ffffff;
+}
+.address-link .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.address .mail,
+.address .tel {
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address .map {
+  color: var(--second-accent-color);
+}
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
+.address-link {
+}
+.address-link .item:not(:last-child) {
+  margin-bottom: 9px;
+}
