@@ -30,34 +30,3 @@
   color: $second-accent-color;
 }
 
-.section-hero .btn {
-  
-}
-.btn-hero {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
-  font-weight: 700;
-  font-size: 16;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: $second-accent-color;
-  background-color: $prymary-bg-color;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 4px;
-}
-.btn:hover,
-.btn:focus {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  background-color: $prymary-bg-color;
-  color: $second-accent-color;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
