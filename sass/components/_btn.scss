@@ -13,6 +13,8 @@
   background-color: $prymary-bg-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
+  
 &:hover,
 &:focus {
   font-family: Roboto;
@@ -49,6 +51,7 @@
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .works__btn  {
   font-family: Roboto;
@@ -109,5 +112,6 @@ justify-content: center;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+ cursor: pointer;
 
 }
