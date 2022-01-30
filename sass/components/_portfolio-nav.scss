@@ -38,6 +38,14 @@ margin-right: 8px;
 
   }
 }
+.works__btn--active {
+  background:$accent-color;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $second-accent-color;
+}
 
 
 
